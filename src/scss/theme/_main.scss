@@ -24,5 +24,13 @@ html{
 }
 
 .section-1{
-
+    background-image: radial-gradient(circle at center,#147dcb 0%,#126fb4);
+    padding: 54px 0;
+    color: #fff;
+    h1{
+	color: #fff;
+	text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);
+	margin-top: 40px;
+	text-transform: uppercase;
+    }
 }
