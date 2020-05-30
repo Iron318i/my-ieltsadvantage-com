@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Tungsten Rounded';
+    src: url('../fonts/TungstenRounded-Book.woff2') format('woff2'),
+        url('../fonts/TungstenRounded-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten Rounded';
+    src: url('../fonts/TungstenRounded-Light.woff2') format('woff2'),
+        url('../fonts/TungstenRounded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten Rounded';
+    src: url('../fonts/TungstenRounded-SemiBold.woff2') format('woff2'),
+        url('../fonts/TungstenRounded-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten Rounded';
+    src: url('../fonts/TungstenRounded-Medium.woff2') format('woff2'),
+        url('../fonts/TungstenRounded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+

@@ -1,0 +1,54 @@
+body{
+    position: relative;
+    min-width: 320px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+//
+// Headings
+//
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: $headings-margin-bottom;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    color: $headings-color;
+    font-family: $headings-font-fdamily;
+}
+
+h1, .h1 {
+    font-size:$h1-font-size;
+    letter-spacing: -.02em;
+    font-weight: 300;
+}
+h2, .h2 {
+    font-size:$h2-font-size;
+    letter-spacing: -.02em;
+    font-weight: 300;
+}
+h3, .h3 { font-size:$h3-font-size; }
+h4, .h4 { font-size:$h4-font-size; }
+h5, .h5 { font-size:$h5-font-size; }
+h6, .h6 { font-size:$h6-font-size; }
+
+.sub-heading{
+    font-size: rem(26px);
+    margin-bottom: 1rem;
+}
+.btn{
+    display: inline-block;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: rem(23px);
+    background-color: #fc8902;
+    padding: 18px 50px;
+    @include hover-focus-active{
+	background-color: #b9690b;
+	color: #fff;
+    }
+}
