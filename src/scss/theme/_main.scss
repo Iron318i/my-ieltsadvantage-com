@@ -22,8 +22,15 @@ html{
 }
 .site-header{
 }
-.form-wrp{
-    textarea,  select,  input[type=text],  input[type=url],  input[type=email],  input[type=tel],  input[type=number],  input[type=password] {
+.mp_wrapper {
+    :focus {
+	outline: 0;
+    }
+    .mp-form-row {
+	margin-bottom: 10px;
+	width: 100% ;
+    }
+    textarea,  select,  input[type="text"],  input[type="url"],  input[type="email"],  input[type="tel"],  input[type="number"],  input[type="password"] {
 	width: 100%;
 	outline-style: none;
 	font-size: inherit;
@@ -35,25 +42,67 @@ html{
 	display: inline;
 	box-sizing: border-box;
     }
+    .mp-form-label {
+	font-size: 14px;
+	color: #000;
+	margin-top: -10px;
+	label{
+	    margin-bottom: 0;
+	}
+    }
+    #mepr_no_val {
+	display: none !important;
+	margin: 0;
+	padding: 0;
+    }
+    .mepr-submit {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 3px;
+	background-color: #f56f09;
+	border-color: #f56f09;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+    }
+    .mepr-form-has-errors,
+    .cc-error {
+	display: none;
+	color: #eb1c26;
+	padding-left: 5px;
+    }
+    .mepr-form input.invalid, .mepr-form select.invalid, .mepr-form textarea.invalid, .mepr-form label.mepr-checkbox-field.invalid, .mepr-form div.mepr-checkboxes-field.invalid, .mepr-form div.mepr-radios-field.invalid {
+	border: 2px solid red !important;
+	background-color: #FF6666 !important;
+    }
 }
 .section-1{
     background-image: radial-gradient(circle at center,#147dcb 0%,#126fb4);
-    padding: 27px 0;
+    padding: 54px 0;
     color: #fff;
     h1{
 	color: #fff;
 	text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);
-	margin-top: 40px;
 	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
     }
-}
-.section-2{
-    background-image: linear-gradient(180deg,#ffffff 0%,#f7f9fb 100%)!important;
-    padding: 54px 0;
     h2{
-	color: #cc0000!important;
+	color: #e5e5e5;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
+	text-shadow:0em 0em 0.3em rgba(0,0,0,0.4);
+    }
+    h4{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #e5e5e5;
+	text-shadow:0em 0em 0.3em rgba(0,0,0,0.4);
     }
     ul{
 	list-style: none;
@@ -63,6 +112,7 @@ html{
 	    font-weight: 500;
 	    display: flex;
 	    margin-bottom: 20px;
+	    line-height: 1.32;
 	    svg{
 		flex: 0 0 50px;
 	    }
@@ -75,14 +125,19 @@ html{
 	    max-width: 332px;
 	}
     }
-    h3{
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-    }
     .mepr_price{
+	font-size: 14px;
+	color: #000;
+	label{
+	    margin-bottom: 0;
+	}
 	.mepr_price_cell{
 	    display: inline-block;
 	}
+    }
+    .login-text{
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 25px;
     }
 }

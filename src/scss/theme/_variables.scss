@@ -2,7 +2,7 @@ $black: #000000;
 
 $blue: #016aa7;
 $green: #0bcb8e;
-$red: #cc0000;
+$orange: #ff7409;
 
 // Fonts
 $font-family-base: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
@@ -16,8 +16,8 @@ $line-height-base: 1.5;
 
 $paragraph-margin-bottom: 1rem;
 
-$link-color: $red;
-$link-hover-color: $red;
+$link-color: $orange;
+$link-hover-color: $orange;
 
 // Headings
 $headings-font-fdamily: $font-family-secondary;
@@ -33,10 +33,10 @@ $h4-font-size: rem(16px);
 $h5-font-size: rem(15px);
 $h6-font-size: rem(14px);
 
-$h1-font-size-lg: rem(44px);
-$h2-font-size-lg: rem(22px);
+$h1-font-size-lg: rem(39px);
+$h2-font-size-lg: rem(25px);
 $h3-font-size-lg: rem(20px);
-$h4-font-size-lg: rem(16px);
+$h4-font-size-lg: rem(18px);
 
 
 // Forms
