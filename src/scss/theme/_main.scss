@@ -35,6 +35,7 @@ html{
     .logo{
 	img{
 	    max-width: 156px;
+	    transition: all .4s ease-in-out;
 	}
     }
     .nav{
@@ -64,6 +65,20 @@ html{
 		border-radius: 30px;
 	    }
 	    &:hover a{
+		opacity: 1!important;
+		color: #fff!important;
+		background-color: #f56f09;
+	    }
+	}
+    }
+    .down &{
+	.logo{
+	    img{
+		max-width: 115px;
+	    }
+	}
+	.jointoday_button {
+	    a{
 		opacity: 1!important;
 		color: #fff!important;
 		background-color: #f56f09;
