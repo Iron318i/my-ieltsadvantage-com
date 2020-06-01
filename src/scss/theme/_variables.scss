@@ -2,6 +2,7 @@ $black: #000000;
 
 $blue: #016aa7;
 $green: #0bcb8e;
+$red: #cc0000;
 
 // Fonts
 $font-family-base: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
@@ -15,15 +16,15 @@ $line-height-base: 1.5;
 
 $paragraph-margin-bottom: 1rem;
 
-$link-color: $blue;
-$link-hover-color: $green;
+$link-color: $red;
+$link-hover-color: $red;
 
 // Headings
 $headings-font-fdamily: $font-family-secondary;
 $headings-margin-bottom: 1rem;
 $headings-font-weight: 700;
 $headings-line-height: 1.1;
-$headings-color: $blue;
+$headings-color: $black;
 
 $h1-font-size: rem(24px);
 $h2-font-size: rem(22px);
@@ -34,7 +35,7 @@ $h6-font-size: rem(14px);
 
 $h1-font-size-lg: rem(44px);
 $h2-font-size-lg: rem(22px);
-$h3-font-size-lg: rem(18px);
+$h3-font-size-lg: rem(20px);
 $h4-font-size-lg: rem(16px);
 
 

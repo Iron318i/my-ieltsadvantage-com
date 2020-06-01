@@ -22,7 +22,20 @@ html{
 }
 .site-header{
 }
-
+.form-wrp{
+    textarea,  select,  input[type=text],  input[type=url],  input[type=email],  input[type=tel],  input[type=number],  input[type=password] {
+	width: 100%;
+	outline-style: none;
+	font-size: inherit;
+	font-family: inherit;
+	padding: 10px;
+	letter-spacing: normal;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	/* margin-bottom: 10px !important; */
+	display: inline;
+	box-sizing: border-box;
+    }
+}
 .section-1{
     background-image: radial-gradient(circle at center,#147dcb 0%,#126fb4);
     padding: 27px 0;
@@ -53,6 +66,23 @@ html{
 	    svg{
 		flex: 0 0 50px;
 	    }
+	}
+    }
+    .img-box{
+	text-align: center;
+	margin-bottom: 20px;
+	img{
+	    max-width: 332px;
+	}
+    }
+    h3{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+    }
+    .mepr_price{
+	.mepr_price_cell{
+	    display: inline-block;
 	}
     }
 }
