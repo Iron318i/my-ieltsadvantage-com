@@ -103,10 +103,6 @@ const config = {
 	}),
 	new CopyWebpackPlugin([
 	    {
-		from: "./src/js/jquery.fancybox.min.js",
-		to: "./js/jquery.fancybox.min.js"
-	    },
-	    {
 		from: "./src/fonts",
 		to: "./fonts"
 	    },

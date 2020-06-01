@@ -25,12 +25,34 @@ html{
 
 .section-1{
     background-image: radial-gradient(circle at center,#147dcb 0%,#126fb4);
-    padding: 54px 0;
+    padding: 27px 0;
     color: #fff;
     h1{
 	color: #fff;
 	text-shadow: 0em 0em 0.3em rgba(0,0,0,0.4);
 	margin-top: 40px;
 	text-transform: uppercase;
+    }
+}
+.section-2{
+    background-image: linear-gradient(180deg,#ffffff 0%,#f7f9fb 100%)!important;
+    padding: 54px 0;
+    h2{
+	color: #cc0000!important;
+	text-align: center;
+	margin-bottom: 50px;
+    }
+    ul{
+	list-style: none;
+	padding: 0;
+	li{
+	    font-size: 18px;
+	    font-weight: 500;
+	    display: flex;
+	    margin-bottom: 20px;
+	    svg{
+		flex: 0 0 50px;
+	    }
+	}
     }
 }
