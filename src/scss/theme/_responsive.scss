@@ -10,6 +10,15 @@
     h2, .h2 { font-size:$h2-font-size-lg; }
     h3, .h3 { font-size:$h3-font-size-lg; }
     h4, .h4 { font-size:$h4-font-size-lg; }
+    .site-header .nav li+li {
+	margin-left: 20px;
+    }
+    .section-1 {
+	padding: 80px 0 54px;
+    }
+    .section-2 {
+	padding: 54px 0;
+    }
 }
 @media (min-width: 992px){
     .col-md-6 {
@@ -61,6 +70,33 @@
     }
 }
 @media (max-width: 767px){
+    .site-header{
+	position: relative;
+	.logo img {
+	    max-width: 100px;
+	}
+    }
+    #top-menu-nav{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	left: 30px;
+	right: 30px;
+	top: 100%;
+	padding: 5%;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+	border-top: 3px solid #2ea3f2;
+	.nav{
+	    flex-direction: column;
+	    text-align: center;
+	    li{
+		margin-bottom: 20px;
+		a{
+		    display: block;
+		}
+	    }
+	}
+    }
     .section-2 {
 	h2{
 	    font-size: 24px;
